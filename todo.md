@@ -30,7 +30,6 @@ dsa/
 arrays/
 ├── __init__.py
 ├── 2d_prefix_sum.py
-├── two_pointers_opposite.py
 ├── two_pointers_fast_slow.py
 ├── kadanes_algorithm.py
 ├── moores_voting.py
