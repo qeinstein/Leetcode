@@ -33,6 +33,7 @@ def get_cycle_entrance(head: Optional[ListNode])-> Optional[ListNode]:
     while fast and fast.next:
         slow = slow.next
         fast = fast.next.next
+        
         if slow == fast:
             meeting_point = slow
             break
